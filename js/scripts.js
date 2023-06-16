@@ -39,7 +39,7 @@ form.addEventListener('click', () => {
 });
 */
 class Pizza {
-    toppings = document.div('#checkbox-container').value;
-    size = document.getSelection('#Size').value;
+    toppings = ['pepperoni', 'sausage'];
+    size = ['small', 'medium', 'large'];
 };
-console.log(toppings);
+console.log(Pizza);

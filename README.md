@@ -30,8 +30,8 @@ _This will create a website for a pizza parlor with the ability for a user to cr
 Describe: Pizza()
 
 Test: "It should return a Pizza object with two properties for toppings and size"
-Code: const myPizza = new Pizza(["pepperoni", "sausage", "cheese"]);
-Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium" }
+Code: const myPizza = new Pizza(["pepperoni", "sausage"]);
+Expected Output: Pizza { toppings: ["pepperoni", "sausage"], size: "medium" }
 
 Describe:
 
