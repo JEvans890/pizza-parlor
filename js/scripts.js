@@ -27,12 +27,19 @@ function createCheckboxes() {
 
     }
 }
-*/
+
 //button stuff
-let btnShow = document.querySelector('button');
+let form = document.querySelector('form');
 let result = document.querySelector('h1');
 
-btnShow.addEventListener('click', () => {
+form.addEventListener('click', () => {
+    event.preventDefault();
     let checkbox = document.querySelector('input[type="checkbox"]:checked');
     result.innerText = checkbox.value;
 });
+*/
+class Pizza {
+    toppings = document.div('#checkbox-container').value;
+    size = document.getSelection('#Size').value;
+};
+console.log(toppings);
