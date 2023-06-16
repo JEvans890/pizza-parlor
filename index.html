@@ -13,23 +13,28 @@
     <p><em>Powered by: Uncle Ben Tek (c)</em></p>
     <h3><u>Premade</u></h3>
         <form>
-            <label for="Premade">GreenGoblin - explosive verde variety<br>
+            <label for="Premade">
+            GreenGoblin - explosive verde variety<br>
             Doctor Octogonapiz - 8 levels of flavor <br>
             Sandman's Savory Selection - Sand. It's just sand.<br>
             </label>
-            <select id="PremadeSelect">
-                <option id="GG">GreenGoblin</option>
-                <option id="D8">Doctor Octogonapiz</option>
-                <option id="SM">SandMan's Select</option>
-            </select>
-        </form>
     <h3>Make Your Own</h3>
         <div id="checkboxes-container">
             <label><input type="checkbox" value="Pepperoni">Pepperoni</label>
             <label><input type="checkbox" value="Sausage">Sausage</label>
             <label><input type="checkbox" value="Cheese">Cheese</label>
-            <button>Order</button>
-            <h1>Result</h1>
+            <label>Size
+                <select id="Size">
+                    <option id="Small">Small</option>
+                    <option id="Medium">Medium</option>
+                    <option id="Large">Large</option>
+                </select>
+            </label>
+            <button id="button">Order</button>
+            <h1>Your Order:<br>
+                <span></span>
+            </h1>
         </div>
+    </form>
 </body>
 </html>

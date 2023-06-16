@@ -1,3 +1,4 @@
+/*
 function factoryFunction(radius) {
     return {
         radius,
@@ -19,3 +20,19 @@ const circle = new Circle(1);
 //const x = {}; <-this.
 
 
+function createCheckboxes() {
+    const container = document.getElementById("checkboxes-container");
+    let checkboxLabel = [Pepperoni, Sausage, Cheese];
+    for (let i = 0; i < checkboxLabels.length; i++) {
+
+    }
+}
+*/
+//button stuff
+let btnShow = document.querySelector('button');
+let result = document.querySelector('h1');
+
+btnShow.addEventListener('click', () => {
+    let checkbox = document.querySelector('input[type="checkbox"]:checked');
+    result.innerText = checkbox.value;
+});
