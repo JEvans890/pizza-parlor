@@ -1,3 +1,16 @@
+body {
+    text-align: center;
+}
+
 .hidden {
     display:none;
+}
+
+div {
+    display: inline-block;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
 }
