@@ -43,3 +43,9 @@ class Pizza {
     size = ['small', 'medium', 'large'];
 };
 console.log(Pizza);
+
+document.getElementById("button").onclick = function(){
+
+    let output = document.getElementById("checkbox.value", "Size.option").value;
+    console.log("Your Order: ", output);
+};
